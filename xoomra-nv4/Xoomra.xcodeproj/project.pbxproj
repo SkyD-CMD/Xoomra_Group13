@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DA237527A1EED6008423CD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 17DA237427A1EED6008423CD /* FirebaseFirestore */; };
+		17DA237727A1EEDE008423CD /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 17DA237627A1EEDE008423CD /* FirebaseFirestoreSwift-Beta */; };
+		17DA237927A1F26D008423CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17DA237827A1F26D008423CD /* GoogleService-Info.plist */; };
+		17DA23CE27A20685008423CD /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA23CD27A20685008423CD /* Accommodation.swift */; };
+		17DA23D027A2240B008423CD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA23CF27A2240B008423CD /* Coordinates.swift */; };
+		1C70DF31279C727500CAB092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70DF2F279C727500CAB092 /* SceneDelegate.swift */; };
+		1C70DF32279C727500CAB092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70DF30279C727500CAB092 /* AppDelegate.swift */; };
+		1CA54681279C172F006E84BB /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA54680279C172F006E84BB /* TextFieldEffects */; };
+		1CA5468B279C1A1C006E84BB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA5468A279C1A1C006E84BB /* IQKeyboardManagerSwift */; };
+		1CA5468E279C1C74006E84BB /* SimpleCheckbox in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA5468D279C1C74006E84BB /* SimpleCheckbox */; };
+		1CA6D8B9279C27A9000D5B12 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D8B8279C27A9000D5B12 /* SignUpViewController.swift */; };
+		1CA6D8C5279C3932000D5B12 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D8C4279C3932000D5B12 /* HomeTabBarViewController.swift */; };
+		1CA6D8CB279C39B2000D5B12 /* AccommodationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D8CA279C39B2000D5B12 /* AccommodationsViewController.swift */; };
+		1CA6D8CD279C39C2000D5B12 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D8CC279C39C2000D5B12 /* FavoritesViewController.swift */; };
+		1CA6D8CF279C39D2000D5B12 /* BookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D8CE279C39D2000D5B12 /* BookingsViewController.swift */; };
+		1CA6D8D6279C4246000D5B12 /* ProfileOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6D8D5279C4246000D5B12 /* ProfileOption.swift */; };
+		1CA6D8DD279C6A78000D5B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6D8DC279C6A78000D5B12 /* Main.storyboard */; };
+		7F00CA0C279D7BFE000A1BAC /* UiView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00CA0B279D7BFE000A1BAC /* UiView + Extension.swift */; };
+		7F207DBC279EBA8D00674CE3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F207DBA279EBA8D00674CE3 /* TableViewCell.swift */; };
+		7F207DBD279EBA8D00674CE3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F207DBB279EBA8D00674CE3 /* TableViewCell.xib */; };
+		7F207DC1279EC35600674CE3 /* AccommodationsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F207DC0279EC35600674CE3 /* AccommodationsDetailsViewController.swift */; };
+		7FBDED66279EADAC000502E2 /* ProfileinformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDED62279EADAC000502E2 /* ProfileinformationViewController.swift */; };
+		7FBDED67279EADAC000502E2 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDED64279EADAC000502E2 /* EditProfileViewController.swift */; };
+		7FBDED68279EADAC000502E2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDED65279EADAC000502E2 /* ProfileViewController.swift */; };
+		7FD65441279D33F5000EAE72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD65440279D33F5000EAE72 /* LoginViewController.swift */; };
+		7FD979AD279F4A8400937D41 /* FavoritesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD979AC279F4A8400937D41 /* FavoritesDetailsViewController.swift */; };
+		BF35A7AC279BEED100AFA71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF35A7AB279BEED100AFA71F /* Assets.xcassets */; };
+		BF35A7AF279BEED100AFA71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF35A7AD279BEED100AFA71F /* LaunchScreen.storyboard */; };
+		BF35A7BC279BF2FE00AFA71F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BF35A7BB279BF2FE00AFA71F /* FirebaseAnalytics */; };
+		BF35A7BE279BF2FE00AFA71F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BF35A7BD279BF2FE00AFA71F /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17DA237827A1F26D008423CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17DA23CD27A20685008423CD /* Accommodation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accommodation.swift; sourceTree = "<group>"; };
+		17DA23CF27A2240B008423CD /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		1C70DF2F279C727500CAB092 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C70DF30279C727500CAB092 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CA6D8B8279C27A9000D5B12 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1CA6D8C4279C3932000D5B12 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		1CA6D8CA279C39B2000D5B12 /* AccommodationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationsViewController.swift; sourceTree = "<group>"; };
+		1CA6D8CC279C39C2000D5B12 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		1CA6D8CE279C39D2000D5B12 /* BookingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsViewController.swift; sourceTree = "<group>"; };
+		1CA6D8D5279C4246000D5B12 /* ProfileOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOption.swift; sourceTree = "<group>"; };
+		1CA6D8DC279C6A78000D5B12 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7F00CA0B279D7BFE000A1BAC /* UiView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView + Extension.swift"; sourceTree = "<group>"; };
+		7F207DBA279EBA8D00674CE3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7F207DBB279EBA8D00674CE3 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		7F207DC0279EC35600674CE3 /* AccommodationsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationsDetailsViewController.swift; sourceTree = "<group>"; };
+		7FBDED62279EADAC000502E2 /* ProfileinformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileinformationViewController.swift; sourceTree = "<group>"; };
+		7FBDED64279EADAC000502E2 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		7FBDED65279EADAC000502E2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7FD65440279D33F5000EAE72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7FD979AC279F4A8400937D41 /* FavoritesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesDetailsViewController.swift; sourceTree = "<group>"; };
+		BF35A79F279BEECF00AFA71F /* Xoomra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xoomra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF35A7AB279BEED100AFA71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF35A7AE279BEED100AFA71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF35A7B0279BEED100AFA71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF35A79C279BEECF00AFA71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA54681279C172F006E84BB /* TextFieldEffects in Frameworks */,
+				1CA5468B279C1A1C006E84BB /* IQKeyboardManagerSwift in Frameworks */,
+				17DA237727A1EEDE008423CD /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				1CA5468E279C1C74006E84BB /* SimpleCheckbox in Frameworks */,
+				BF35A7BC279BF2FE00AFA71F /* FirebaseAnalytics in Frameworks */,
+				BF35A7BE279BF2FE00AFA71F /* FirebaseAuth in Frameworks */,
+				17DA237527A1EED6008423CD /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DA237327A1EEC1008423CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CA5466E279C1258006E84BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6D8D5279C4246000D5B12 /* ProfileOption.swift */,
+				17DA23CD27A20685008423CD /* Accommodation.swift */,
+				17DA23CF27A2240B008423CD /* Coordinates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CA5466F279C1266006E84BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F207DB9279EBA5800674CE3 /* AccommodationCell */,
+				7F207DBE279EC2DA00674CE3 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CA54670279C126B006E84BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F207DB8279EB97600674CE3 /* AccommodationsViewController */,
+				7FD65440279D33F5000EAE72 /* LoginViewController.swift */,
+				1CA6D8B8279C27A9000D5B12 /* SignUpViewController.swift */,
+				1CA6D8C4279C3932000D5B12 /* HomeTabBarViewController.swift */,
+				7FD979AA279F497300937D41 /* FavoritesViewController */,
+				1CA6D8CE279C39D2000D5B12 /* BookingsViewController.swift */,
+				7FBDED61279EADAC000502E2 /* ProfileViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F00CA0A279D7BF0000A1BAC /* UiView + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7F00CA0B279D7BFE000A1BAC /* UiView + Extension.swift */,
+			);
+			path = "UiView + Extension";
+			sourceTree = "<group>";
+		};
+		7F207DB8279EB97600674CE3 /* AccommodationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6D8CA279C39B2000D5B12 /* AccommodationsViewController.swift */,
+				7F207DBF279EC30C00674CE3 /* AccommodationsCellInformationVC */,
+			);
+			path = AccommodationsViewController;
+			sourceTree = "<group>";
+		};
+		7F207DB9279EBA5800674CE3 /* AccommodationCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F207DBA279EBA8D00674CE3 /* TableViewCell.swift */,
+				7F207DBB279EBA8D00674CE3 /* TableViewCell.xib */,
+			);
+			path = AccommodationCell;
+			sourceTree = "<group>";
+		};
+		7F207DBE279EC2DA00674CE3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BF35A7AD279BEED100AFA71F /* LaunchScreen.storyboard */,
+				1CA6D8DC279C6A78000D5B12 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7F207DBF279EC30C00674CE3 /* AccommodationsCellInformationVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F207DC0279EC35600674CE3 /* AccommodationsDetailsViewController.swift */,
+			);
+			path = AccommodationsCellInformationVC;
+			sourceTree = "<group>";
+		};
+		7FBDED61279EADAC000502E2 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FBDED65279EADAC000502E2 /* ProfileViewController.swift */,
+				7FBDED63279EADAC000502E2 /* Edit Profile */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		7FBDED63279EADAC000502E2 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7FBDED62279EADAC000502E2 /* ProfileinformationViewController.swift */,
+				7FBDED64279EADAC000502E2 /* EditProfileViewController.swift */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		7FD979AA279F497300937D41 /* FavoritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6D8CC279C39C2000D5B12 /* FavoritesViewController.swift */,
+				7FD979AB279F499800937D41 /* FavoritesCellInformationVC */,
+			);
+			path = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		7FD979AB279F499800937D41 /* FavoritesCellInformationVC */ = {
+			isa = PBXGroup;
+			children = (
+				7FD979AC279F4A8400937D41 /* FavoritesDetailsViewController.swift */,
+			);
+			path = FavoritesCellInformationVC;
+			sourceTree = "<group>";
+		};
+		BF35A796279BEECE00AFA71F = {
+			isa = PBXGroup;
+			children = (
+				BF35A7A1279BEECF00AFA71F /* Xoomra */,
+				BF35A7A0279BEECF00AFA71F /* Products */,
+				17DA237327A1EEC1008423CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF35A7A0279BEECF00AFA71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF35A79F279BEECF00AFA71F /* Xoomra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF35A7A1279BEECF00AFA71F /* Xoomra */ = {
+			isa = PBXGroup;
+			children = (
+				17DA237827A1F26D008423CD /* GoogleService-Info.plist */,
+				7F00CA0A279D7BF0000A1BAC /* UiView + Extension */,
+				BF35A7B0279BEED100AFA71F /* Info.plist */,
+				1C70DF30279C727500CAB092 /* AppDelegate.swift */,
+				1C70DF2F279C727500CAB092 /* SceneDelegate.swift */,
+				1CA5466E279C1258006E84BB /* Models */,
+				1CA5466F279C1266006E84BB /* Views */,
+				1CA54670279C126B006E84BB /* Controllers */,
+				BF35A7AB279BEED100AFA71F /* Assets.xcassets */,
+			);
+			path = Xoomra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF35A79E279BEECF00AFA71F /* Xoomra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF35A7B3279BEED100AFA71F /* Build configuration list for PBXNativeTarget "Xoomra" */;
+			buildPhases = (
+				BF35A79B279BEECF00AFA71F /* Sources */,
+				BF35A79C279BEECF00AFA71F /* Frameworks */,
+				BF35A79D279BEECF00AFA71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xoomra;
+			packageProductDependencies = (
+				BF35A7BB279BF2FE00AFA71F /* FirebaseAnalytics */,
+				BF35A7BD279BF2FE00AFA71F /* FirebaseAuth */,
+				1CA54680279C172F006E84BB /* TextFieldEffects */,
+				1CA5468A279C1A1C006E84BB /* IQKeyboardManagerSwift */,
+				1CA5468D279C1C74006E84BB /* SimpleCheckbox */,
+				17DA237427A1EED6008423CD /* FirebaseFirestore */,
+				17DA237627A1EEDE008423CD /* FirebaseFirestoreSwift-Beta */,
+			);
+			productName = Xoomra;
+			productReference = BF35A79F279BEECF00AFA71F /* Xoomra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF35A797279BEECE00AFA71F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BF35A79E279BEECF00AFA71F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BF35A79A279BEECE00AFA71F /* Build configuration list for PBXProject "Xoomra" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF35A796279BEECE00AFA71F;
+			packageReferences = (
+				BF35A7BA279BF2FE00AFA71F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1CA5467F279C172F006E84BB /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				1CA54689279C1A1C006E84BB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				1CA5468C279C1C74006E84BB /* XCRemoteSwiftPackageReference "SimpleCheckbox" */,
+			);
+			productRefGroup = BF35A7A0279BEECF00AFA71F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF35A79E279BEECF00AFA71F /* Xoomra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF35A79D279BEECF00AFA71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF35A7AF279BEED100AFA71F /* LaunchScreen.storyboard in Resources */,
+				7F207DBD279EBA8D00674CE3 /* TableViewCell.xib in Resources */,
+				17DA237927A1F26D008423CD /* GoogleService-Info.plist in Resources */,
+				1CA6D8DD279C6A78000D5B12 /* Main.storyboard in Resources */,
+				BF35A7AC279BEED100AFA71F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF35A79B279BEECF00AFA71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C70DF32279C727500CAB092 /* AppDelegate.swift in Sources */,
+				7FBDED66279EADAC000502E2 /* ProfileinformationViewController.swift in Sources */,
+				1CA6D8B9279C27A9000D5B12 /* SignUpViewController.swift in Sources */,
+				7F00CA0C279D7BFE000A1BAC /* UiView + Extension.swift in Sources */,
+				7FBDED67279EADAC000502E2 /* EditProfileViewController.swift in Sources */,
+				7F207DBC279EBA8D00674CE3 /* TableViewCell.swift in Sources */,
+				1CA6D8CF279C39D2000D5B12 /* BookingsViewController.swift in Sources */,
+				17DA23CE27A20685008423CD /* Accommodation.swift in Sources */,
+				7FD979AD279F4A8400937D41 /* FavoritesDetailsViewController.swift in Sources */,
+				1CA6D8D6279C4246000D5B12 /* ProfileOption.swift in Sources */,
+				1C70DF31279C727500CAB092 /* SceneDelegate.swift in Sources */,
+				1CA6D8CB279C39B2000D5B12 /* AccommodationsViewController.swift in Sources */,
+				1CA6D8CD279C39C2000D5B12 /* FavoritesViewController.swift in Sources */,
+				7FBDED68279EADAC000502E2 /* ProfileViewController.swift in Sources */,
+				1CA6D8C5279C3932000D5B12 /* HomeTabBarViewController.swift in Sources */,
+				17DA23D027A2240B008423CD /* Coordinates.swift in Sources */,
+				7FD65441279D33F5000EAE72 /* LoginViewController.swift in Sources */,
+				7F207DC1279EC35600674CE3 /* AccommodationsDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF35A7AD279BEED100AFA71F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF35A7AE279BEED100AFA71F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF35A7B1279BEED100AFA71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF35A7B2279BEED100AFA71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF35A7B4279BEED100AFA71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DU5682YV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xoomra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IRDC.Xoomra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF35A7B5279BEED100AFA71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DU5682YV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xoomra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IRDC.Xoomra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF35A79A279BEECE00AFA71F /* Build configuration list for PBXProject "Xoomra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF35A7B1279BEED100AFA71F /* Debug */,
+				BF35A7B2279BEED100AFA71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF35A7B3279BEED100AFA71F /* Build configuration list for PBXNativeTarget "Xoomra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF35A7B4279BEED100AFA71F /* Debug */,
+				BF35A7B5279BEED100AFA71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1CA5467F279C172F006E84BB /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		1CA54689279C1A1C006E84BB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		1CA5468C279C1C74006E84BB /* XCRemoteSwiftPackageReference "SimpleCheckbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BeauNouvelle/SimpleCheckbox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		BF35A7BA279BF2FE00AFA71F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17DA237427A1EED6008423CD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF35A7BA279BF2FE00AFA71F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		17DA237627A1EEDE008423CD /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF35A7BA279BF2FE00AFA71F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		1CA54680279C172F006E84BB /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA5467F279C172F006E84BB /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+		1CA5468A279C1A1C006E84BB /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA54689279C1A1C006E84BB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		1CA5468D279C1C74006E84BB /* SimpleCheckbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA5468C279C1C74006E84BB /* XCRemoteSwiftPackageReference "SimpleCheckbox" */;
+			productName = SimpleCheckbox;
+		};
+		BF35A7BB279BF2FE00AFA71F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF35A7BA279BF2FE00AFA71F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BF35A7BD279BF2FE00AFA71F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF35A7BA279BF2FE00AFA71F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BF35A797279BEECE00AFA71F /* Project object */;
+}
